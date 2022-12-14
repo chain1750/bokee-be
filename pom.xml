@@ -15,7 +15,7 @@
     <artifactId>bokee-be</artifactId>
     <version>1.0</version>
 
-    <name>bokee-be</name>
+    <name>bokee</name>
     <description>个人博客后端</description>
 
     <!-- 版本参数 -->
@@ -86,7 +86,7 @@
     </dependencies>
 
     <build>
-        <finalName>${artifactId}</finalName>
+        <finalName>${name}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
